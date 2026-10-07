@@ -1,0 +1,111 @@
+/* ================================
+   GOVERNANCE & COMPLIANCE
+================================ */
+
+.governance {
+  padding: 100px 7%;
+  background: #f8f3e9;
+}
+
+.governance-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.governance-heading {
+  max-width: 850px;
+  margin-bottom: 55px;
+}
+
+.governance-heading .section-label {
+  margin-bottom: 18px;
+}
+
+.governance-heading h2 {
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1.05;
+  margin: 0 0 25px;
+  color: #17130f;
+}
+
+.governance-heading h2 span {
+  color: #a86521;
+  display: block;
+}
+
+.governance-intro {
+  max-width: 700px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #5d5146;
+}
+
+.governance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.governance-card {
+  position: relative;
+  padding: 40px;
+  background: rgba(255, 252, 245, 0.75);
+  border: 1px solid rgba(168, 101, 33, 0.18);
+  border-radius: 24px;
+}
+
+.governance-number {
+  margin-bottom: 25px;
+  color: #a86521;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.governance-card h3 {
+  margin: 0 0 25px;
+  color: #17130f;
+  font-size: 1.5rem;
+}
+
+.governance-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.governance-card li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 16px;
+  color: #5d5146;
+  line-height: 1.6;
+}
+
+.governance-card li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #a86521;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .governance {
+    padding: 75px 6%;
+  }
+
+  .governance-heading {
+    margin-bottom: 40px;
+  }
+
+  .governance-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .governance-card {
+    padding: 30px 25px;
+    border-radius: 20px;
+  }
+}
